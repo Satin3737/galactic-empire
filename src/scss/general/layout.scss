@@ -1,0 +1,55 @@
+* {
+    font-family: 'TitilliumWeb', sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: var(--second-color);
+}
+
+body {
+    background: #0e0e0e;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 0.8);
+}
+
+.title {
+    font-size: 50px;
+    line-height: 1.52;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $red;
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    font-family: 'Sigma Five Marquee', sans-serif;
+    line-height: 1.4;
+    font-size: 34px;
+    font-weight: 400;
+    color: $white;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+}
+
+.btn {
+
+}

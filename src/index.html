@@ -1,17 +1,30 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
+@@include('partials/head.html', {
+    "title": "Galactic Empire!"
+})
 <body>
+    @@include('partials/menu.html', {})
     <main>
 
+        <section class="promo">
+            <div class="container">
+                <div class="promo__wrapper">
+                    <h3 class="subtitle promo__subtitle">
+                        defend the galaxy
+                    </h3>
+                    <h1 class="promo__title">
+                        join the empire
+                    </h1>
+                    <button class="btn btn_fill promo__btn">
+                        ENLIST
+                    </button>
+                </div>
+            </div>
+        </section>
+
     </main>
+    @@include('partials/footer.html', {})
     <script src="js/app.js"></script>
 </body>
 </html>

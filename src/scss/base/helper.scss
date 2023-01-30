@@ -1,0 +1,20 @@
+$red: #d72323;
+$white: #ffffff;
+
+@mixin responsive-below($width) {
+    @media (max-width: #{$width}) {
+        @content;
+    }
+}
+
+@mixin responsive-above($width) {
+    @media (min-width: #{$width}) {
+        @content;
+    }
+}
+
+@mixin responsive-below-height($height) {
+    @media (max-height: #{$height}) {
+        @content;
+    }
+}
