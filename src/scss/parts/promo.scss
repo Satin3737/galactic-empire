@@ -1,3 +1,20 @@
 .promo {
-
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url("../img/promo/promo-bg.jpg") no-repeat center / cover;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    &__title {
+        font-size: 70px;
+        letter-spacing: 0.045em;
+        text-transform: uppercase;
+        line-height: 1.28;
+        color: $white;
+        margin-bottom: 40px;
+    }
+    &__subtitle {
+        margin-bottom: 20px;
+    }
 }

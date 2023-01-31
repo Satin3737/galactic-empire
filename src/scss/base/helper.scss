@@ -1,5 +1,6 @@
 $red: #d72323;
 $white: #ffffff;
+$black: #000;
 
 @mixin responsive-below($width) {
     @media (max-width: #{$width}) {
